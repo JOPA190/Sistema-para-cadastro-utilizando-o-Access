@@ -22,8 +22,8 @@ Este sistema utiliza o banco de dados **Microsoft Access**. Para o funcionamento
 
 ```csharp
 string strCon = @"Provider=Microsoft.Jet.OLEDB.4.0;Data Source=D:\joão\bd_22_banco.mdb";
-Nota: Modifique o caminho do banco de dados de acordo com a sua configuração local.
 ```
+Nota: Modifique o caminho do banco de dados de acordo com a sua configuração local.
 ## Estrutura do Código
 O sistema é composto pela classe Form2, que implementa as funcionalidades de CRUD para o gerenciamento dos contatos. As operações de banco de dados são realizadas utilizando a biblioteca OleDb para acessar o banco de dados Access.
 
